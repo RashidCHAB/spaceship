@@ -1,0 +1,45 @@
+body {
+    color:aliceblue;
+    background-image: url(1.jpg);
+    background-size: cover
+}
+
+a {
+    color:aliceblue
+}
+.nav  {    
+display: block;
+position: center;
+background-image: url(fon.png);
+background-size: contain;
+border: 2px solid #523;
+border-radius: 1em;
+z-index: 100;
+}
+h1 {
+    text-align: center;
+}
+.left {
+    text-align: left;
+    float:left;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
+.right {
+    text-align: right;
+    float: right;
+    width: 50%; 
+    margin-bottom: 10px;
+
+}
+.box {
+    display: inline-block;
+    max-width: 500px;
+    border: 2px solid rgb(77, 3, 117);
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(96, 63, 98, 0.5);
+}
